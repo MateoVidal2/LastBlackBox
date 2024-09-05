@@ -7,7 +7,7 @@ from collections import deque
 
 class RollingBuffer:
     """
-    A class to implement a rolling buffer of a fixed size.
+    A class to implement a rolling buffer of a fixed size.fff
     """
     def __init__(self, size):
         self.buffer = deque(maxlen=size)
