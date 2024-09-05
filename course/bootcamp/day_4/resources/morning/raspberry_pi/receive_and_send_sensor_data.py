@@ -8,7 +8,7 @@ ser = serial.Serial('/dev/ttyUSB0', 9600) # Replace '/dev/ttyUSB0' with the appr
 
 def receive_sensor_data():
     # Wait until data has been received
-    while True:
+    while True:rrrr
         try:
             line = ser.readline().decode().strip()  # Read a line of data from the serial port
             if line:
